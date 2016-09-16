@@ -1,0 +1,18 @@
+PODS:
+  - PageMenu (1.2.9)
+  - SwiftyJSON (2.3.2)
+  - TNImageSliderViewController (1.0.4)
+
+DEPENDENCIES:
+  - PageMenu
+  - SwiftyJSON
+  - TNImageSliderViewController
+
+SPEC CHECKSUMS:
+  PageMenu: ba19ff267f7a19e444e93c20a7847b78954a7011
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
+  TNImageSliderViewController: 2517ca7b658e2cfd35f12e02c3cacac7056e0010
+
+PODFILE CHECKSUM: eea27e5a7019b5ab1a9eba50c72cfd35c2760a31
+
+COCOAPODS: 1.0.0

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="slidingTab1" customModule="ShoeBox_beta_0_0_1" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="iN0-l3-epB" id="yEF-ES-YTr"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="4" highlightedImage="4" translatesAutoresizingMaskIntoConstraints="NO" id="Bgf-xz-Z1g">
+                    <rect key="frame" x="0.0" y="-7" width="622" height="607"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Bgf-xz-Z1g" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="-7" id="0AG-DA-f2v"/>
+                <constraint firstAttribute="bottom" secondItem="Bgf-xz-Z1g" secondAttribute="bottom" id="au2-iY-rc9"/>
+                <constraint firstItem="Bgf-xz-Z1g" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="bV8-XA-w4I"/>
+                <constraint firstAttribute="trailing" secondItem="Bgf-xz-Z1g" secondAttribute="trailing" constant="-22" id="klN-cc-b4L"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="4" width="500" height="750"/>
+    </resources>
+</document>

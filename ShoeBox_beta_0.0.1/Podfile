@@ -1,0 +1,6 @@
+target "ShoeBox_beta_0.0.1" do
+pod 'PageMenu'
+pod 'TNImageSliderViewController'
+use_frameworks!
+    pod 'SwiftyJSON'
+end

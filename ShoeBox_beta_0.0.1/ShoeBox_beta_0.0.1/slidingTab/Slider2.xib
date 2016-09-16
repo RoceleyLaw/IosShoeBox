@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="Slider2" customModule="ShoeBox_beta_0_0_1" customModuleProvider="target">
+            <connections>
+                <outlet property="hh" destination="iN0-l3-epB" id="PH9-AC-RY6"/>
+                <outlet property="page" destination="mZy-OO-9cP" id="XvA-jh-cBO"/>
+                <outlet property="scrollView" destination="AGd-fp-DxX" id="82k-Iz-Og4"/>
+                <outlet property="table" destination="IT0-Nr-zSj" id="hck-dy-uH3"/>
+                <outlet property="view" destination="iN0-l3-epB" id="d3B-ea-BHS"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="phx-bG-KVU">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="228"/>
+                    <subviews>
+                        <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AGd-fp-DxX">
+                            <rect key="frame" x="0.0" y="0.0" width="600" height="228"/>
+                            <subviews>
+                                <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="mZy-OO-9cP">
+                                    <rect key="frame" x="281" y="178" width="39" height="37"/>
+                                    <color key="pageIndicatorTintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="currentPageIndicatorTintColor" red="0.18759819865226746" green="0.0018362844130024314" blue="0.99743670225143433" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </pageControl>
+                            </subviews>
+                        </scrollView>
+                    </subviews>
+                </stackView>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" alwaysBounceVertical="YES" indicatorStyle="black" style="plain" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="IT0-Nr-zSj">
+                    <rect key="frame" x="0.0" y="227" width="600" height="397"/>
+                    <color key="backgroundColor" red="0.090196078430000007" green="0.090196078430000007" blue="0.090196078430000007" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="separatorColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="sectionIndexColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="sectionIndexBackgroundColor" red="0.090196078431372548" green="0.090196078431372548" blue="0.090196078431372548" alpha="1" colorSpace="calibratedRGB"/>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="phx-bG-KVU" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="VJT-My-Tk0"/>
+                <constraint firstItem="IT0-Nr-zSj" firstAttribute="top" secondItem="phx-bG-KVU" secondAttribute="bottom" constant="-1" id="bHd-fH-99W"/>
+                <constraint firstItem="IT0-Nr-zSj" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="227" id="f1z-b2-I7t"/>
+                <constraint firstItem="phx-bG-KVU" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="vfx-hB-onn"/>
+                <constraint firstItem="phx-bG-KVU" firstAttribute="bottom" secondItem="IT0-Nr-zSj" secondAttribute="top" id="zou-Qh-hIM"/>
+            </constraints>
+        </view>
+    </objects>
+</document>
