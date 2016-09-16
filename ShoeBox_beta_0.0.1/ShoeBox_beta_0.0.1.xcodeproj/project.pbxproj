@@ -15,17 +15,18 @@
 		FE3D68F71D28A7C000822840 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE3D68F61D28A7C000822840 /* SwiftyJSON.framework */; };
 		FE3D68F91D28EE8600822840 /* httpRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3D68F81D28EE8600822840 /* httpRequest.swift */; };
 		FE3D68FB1D28EF1400822840 /* postObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3D68FA1D28EF1400822840 /* postObject.swift */; };
+		FE431CDE1D8B8813005A5016 /* favourites_directories.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE431CDD1D8B8813005A5016 /* favourites_directories.swift */; };
 		FE4973B31D1D215B004C060C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4973B21D1D215B004C060C /* DetailViewController.swift */; };
 		FE4973B51D1D231E004C060C /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE4973B41D1D231E004C060C /* DetailViewController.xib */; };
+		FE630D351D7E4DA1009F865B /* SettingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE630D341D7E4DA1009F865B /* SettingPage.swift */; };
 		FE8CA65B1D120A92003FBC9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8CA65A1D120A92003FBC9A /* AppDelegate.swift */; };
 		FE8CA65D1D120A92003FBC9A /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8CA65C1D120A92003FBC9A /* FirstViewController.swift */; };
-		FE8CA65F1D120A92003FBC9A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8CA65E1D120A92003FBC9A /* SecondViewController.swift */; };
+		FE8CA65F1D120A92003FBC9A /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8CA65E1D120A92003FBC9A /* MainPageViewController.swift */; };
 		FE8CA6621D120A92003FBC9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE8CA6601D120A92003FBC9A /* Main.storyboard */; settings = {ASSET_TAGS = (Second, ); }; };
 		FE8CA6641D120A92003FBC9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE8CA6631D120A92003FBC9A /* Assets.xcassets */; };
 		FE8CA6671D120A92003FBC9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE8CA6651D120A92003FBC9A /* LaunchScreen.storyboard */; };
 		FE8CA6721D120A93003FBC9A /* ShoeBox_beta_0_0_1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8CA6711D120A93003FBC9A /* ShoeBox_beta_0_0_1Tests.swift */; };
 		FE8CA67D1D120A93003FBC9A /* ShoeBox_beta_0_0_1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8CA67C1D120A93003FBC9A /* ShoeBox_beta_0_0_1UITests.swift */; };
-		FE8CA68B1D120E7B003FBC9A /* tableForFirstPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8CA68A1D120E7B003FBC9A /* tableForFirstPage.swift */; };
 		FE8CA68D1D128B50003FBC9A /* searchPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8CA68C1D128B50003FBC9A /* searchPage.swift */; };
 		FE8CA6921D135D15003FBC9A /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8CA6911D135D15003FBC9A /* SWRevealViewController.m */; };
 		FE94581F1D1666DE006CEA38 /* Slider2Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE94581E1D1666DE006CEA38 /* Slider2Cell.xib */; };
@@ -63,12 +64,14 @@
 		FE3D68F61D28A7C000822840 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "../../../Library/Developer/Xcode/DerivedData/ShoeBox_beta_0.0.1-crhqsmsxrgcfbicllrucuryvjcws/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework"; sourceTree = "<group>"; };
 		FE3D68F81D28EE8600822840 /* httpRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = httpRequest.swift; sourceTree = "<group>"; };
 		FE3D68FA1D28EF1400822840 /* postObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = postObject.swift; sourceTree = "<group>"; };
+		FE431CDD1D8B8813005A5016 /* favourites_directories.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = favourites_directories.swift; sourceTree = "<group>"; };
 		FE4973B21D1D215B004C060C /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		FE4973B41D1D231E004C060C /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		FE630D341D7E4DA1009F865B /* SettingPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingPage.swift; sourceTree = "<group>"; };
 		FE8CA6571D120A92003FBC9A /* ShoeBox_beta_0.0.1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShoeBox_beta_0.0.1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE8CA65A1D120A92003FBC9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FE8CA65C1D120A92003FBC9A /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		FE8CA65E1D120A92003FBC9A /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		FE8CA65E1D120A92003FBC9A /* MainPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageViewController.swift; sourceTree = "<group>"; };
 		FE8CA6611D120A92003FBC9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FE8CA6631D120A92003FBC9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE8CA6661D120A92003FBC9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -79,7 +82,6 @@
 		FE8CA6781D120A93003FBC9A /* ShoeBox_beta_0.0.1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShoeBox_beta_0.0.1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE8CA67C1D120A93003FBC9A /* ShoeBox_beta_0_0_1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoeBox_beta_0_0_1UITests.swift; sourceTree = "<group>"; };
 		FE8CA67E1D120A93003FBC9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FE8CA68A1D120E7B003FBC9A /* tableForFirstPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tableForFirstPage.swift; sourceTree = "<group>"; };
 		FE8CA68C1D128B50003FBC9A /* searchPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = searchPage.swift; sourceTree = "<group>"; };
 		FE8CA68F1D135D14003FBC9A /* ShoeBox_beta_0.0.1-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ShoeBox_beta_0.0.1-Bridging-Header.h"; sourceTree = "<group>"; };
 		FE8CA6901D135D15003FBC9A /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
@@ -152,6 +154,14 @@
 			path = slidingTab;
 			sourceTree = "<group>";
 		};
+		FE431CDC1D8B878F005A5016 /* favourites */ = {
+			isa = PBXGroup;
+			children = (
+				FE431CDD1D8B8813005A5016 /* favourites_directories.swift */,
+			);
+			path = favourites;
+			sourceTree = "<group>";
+		};
 		FE8CA64E1D120A92003FBC9A = {
 			isa = PBXGroup;
 			children = (
@@ -177,17 +187,18 @@
 		FE8CA6591D120A92003FBC9A /* ShoeBox_beta_0.0.1 */ = {
 			isa = PBXGroup;
 			children = (
+				FE8CA65E1D120A92003FBC9A /* MainPageViewController.swift */,
+				FE630D341D7E4DA1009F865B /* SettingPage.swift */,
+				FE4973B21D1D215B004C060C /* DetailViewController.swift */,
 				FE8CA65A1D120A92003FBC9A /* AppDelegate.swift */,
-				FE8CA68A1D120E7B003FBC9A /* tableForFirstPage.swift */,
 				FE8CA68C1D128B50003FBC9A /* searchPage.swift */,
 				FE8CA65C1D120A92003FBC9A /* FirstViewController.swift */,
-				FE8CA65E1D120A92003FBC9A /* SecondViewController.swift */,
-				FE4973B21D1D215B004C060C /* DetailViewController.swift */,
 				FE3D68F81D28EE8600822840 /* httpRequest.swift */,
 				FE3D68FA1D28EF1400822840 /* postObject.swift */,
 				FE4973B41D1D231E004C060C /* DetailViewController.xib */,
 				FE8CA6601D120A92003FBC9A /* Main.storyboard */,
 				FE8CA6631D120A92003FBC9A /* Assets.xcassets */,
+				FE431CDC1D8B878F005A5016 /* favourites */,
 				FE05454E1D15133900C1C6CF /* slidingTab */,
 				FE8CA68E1D135CED003FBC9A /* supportFiles */,
 				FE8CA6651D120A92003FBC9A /* LaunchScreen.storyboard */,
@@ -423,12 +434,13 @@
 				FE8CA68D1D128B50003FBC9A /* searchPage.swift in Sources */,
 				FE9458211D166710006CEA38 /* Slider2Cell.swift in Sources */,
 				FE4973B31D1D215B004C060C /* DetailViewController.swift in Sources */,
-				FE8CA65F1D120A92003FBC9A /* SecondViewController.swift in Sources */,
+				FE431CDE1D8B8813005A5016 /* favourites_directories.swift in Sources */,
+				FE8CA65F1D120A92003FBC9A /* MainPageViewController.swift in Sources */,
 				FE3D68FB1D28EF1400822840 /* postObject.swift in Sources */,
 				FE0545521D15137000C1C6CF /* slidingTab1.swift in Sources */,
 				FE8CA65B1D120A92003FBC9A /* AppDelegate.swift in Sources */,
-				FE8CA68B1D120E7B003FBC9A /* tableForFirstPage.swift in Sources */,
 				FE3D68F91D28EE8600822840 /* httpRequest.swift in Sources */,
+				FE630D351D7E4DA1009F865B /* SettingPage.swift in Sources */,
 				FE05459C1D1523D900C1C6CF /* Slider2.swift in Sources */,
 				FE8CA65D1D120A92003FBC9A /* FirstViewController.swift in Sources */,
 				FE8CA6921D135D15003FBC9A /* SWRevealViewController.m in Sources */,

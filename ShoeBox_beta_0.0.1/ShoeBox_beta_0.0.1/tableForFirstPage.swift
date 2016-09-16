@@ -53,21 +53,6 @@ class tableForFirstPage: UITableViewController, UISearchBarDelegate, NSFetchedRe
             }
             }
         
-        
-       
-            
-            //(json: JSON) in
-//            if let results = json["results"].array {
-//                for entry in results {
-//                    self.name.append(json: entry["title"]);
-//                }
-//                dispatch_async(dispatch_get_main_queue(),{
-//                    self.tableView.reloadData()
-//                }
-        
-        //print(self.name)
-                    
-                    
         scrollView.delegate = self
         for index in 0..<pictures.count{
             frame.origin.x = self.scrollView.frame.size.width * CGFloat(index)
@@ -95,14 +80,7 @@ class tableForFirstPage: UITableViewController, UISearchBarDelegate, NSFetchedRe
         
         configurePageControll()
         
-        //refreshController.attributedTitle = NSAttributedString(string: "Pull to refresh")
-        
-               //self.tableView.addSubview(self.refreshController) // not required when using UITableViewController
-        
-        //        self.table.reloadData()
-        //        refreshControl.endRefreshing()
-        //print(name)
-        
+        //fresh the page
         self.addToPullToRefresh()
 
         
@@ -122,7 +100,7 @@ class tableForFirstPage: UITableViewController, UISearchBarDelegate, NSFetchedRe
     {   let newName = "HIHIHIHIHI"
         name.append(newName)
         
-        print("hihih hihiiiiiiiiiiiiiiiii")
+        print("hihihhihiiiiiiiiiiiiiiiii")
         self.tableView.reloadData()
         refreshControl!.endRefreshing()    }
 

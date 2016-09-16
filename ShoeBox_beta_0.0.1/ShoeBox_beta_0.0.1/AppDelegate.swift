@@ -16,21 +16,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate,UISplitViewControllerDeleg
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
-//        
-//        UINavigationBar.appearance().tintColor = UIColor.whiteColor()
-//        
-//        
-//        //return true
-//        
-//        //let splitViewController = self.window!.rootViewController as! UISplitViewController
-//        let navigationController = splitViewController.viewControllers[splitViewController.viewControllers.count-1] as! UINavigationController
-//        navigationController.topViewController!.navigationItem.leftBarButtonItem = splitViewController.displayModeButtonItem()
-//        splitViewController.delegate = self
-//        
-//        let masterNavigationController = splitViewController.viewControllers[0] as! UINavigationController
-//        let controller = masterNavigationController.topViewController as! tableForFirstPage
-//        controller.managedObjectContext = self.managedObjectContext
         return true
 
     }

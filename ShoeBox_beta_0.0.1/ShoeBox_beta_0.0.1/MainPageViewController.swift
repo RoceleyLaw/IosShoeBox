@@ -1,5 +1,5 @@
 //
-//  SecondViewController.swift
+//  MainPageViewController.swift
 //  ShoeBox_beta_0.0.1
 //
 //  Created by LawRoceley on 2016-06-15.
@@ -10,7 +10,7 @@ import UIKit
 import PageMenu
 
 
-class SecondViewController: UIViewController, UIScrollViewDelegate{
+class MainPageViewController: UIViewController, UIScrollViewDelegate{
     
     let kImageHeight:Float = 400
     let kInWindowHeight:Float = 200
@@ -84,23 +84,7 @@ class SecondViewController: UIViewController, UIScrollViewDelegate{
         
         pageMenu!.didMoveToParentViewController(self)    }
     
-    
-//    func didTapGoToLeft() {
-//        let currentIndex = pageMenu!.currentPageIndex
-//        
-//        if currentIndex > 0 {
-//            pageMenu!.moveToPage(currentIndex - 1)
-//        }
-//    }
-//    
-//    func didTapGoToRight() {
-//        let currentIndex = pageMenu!.currentPageIndex
-//        
-//        if currentIndex < pageMenu!.controllerArray.count {
-//            pageMenu!.moveToPage(currentIndex + 1)
-//        }
-//    }
-    
+        
     override func shouldAutomaticallyForwardAppearanceMethods() -> Bool {
         return true
     }
@@ -151,7 +135,7 @@ class SecondViewController: UIViewController, UIScrollViewDelegate{
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if segue.identifier == "showLogin"{
             print("showLogin seque called")
-            let bottomBar = segue.destinationViewController as! SecondViewController
+            let bottomBar = segue.destinationViewController as! MainPageViewController
             bottomBar.hidesBottomBarWhenPushed = true
             bottomBar.navigationItem.hidesBackButton = true
         }
@@ -160,7 +144,7 @@ class SecondViewController: UIViewController, UIScrollViewDelegate{
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         
-        // 点击的themeCell,美辑cell
+        
         if tableView === DetailViewController() {
             //let theme = self.themes!.list![indexPath.row]
             //let themeVC = ThemeViewController()
@@ -172,75 +156,11 @@ class SecondViewController: UIViewController, UIScrollViewDelegate{
             
             //let event = self.everyDays!.list![indexPath.section]
             if indexPath.row == 1 {
-                //let themeVC = DetailViewController()
-                //themeVC.themeModel = event.themes?.last
-                //navigationController!.pushViewController(themeVC, animated: true)
                 
-//            } else { // 点击的美天的cell
-//                let eventVC = EventViewController()
-//                let event = self.everyDays!.list![indexPath.section]
-//                eventVC.model = event.events![indexPath.row]
-//                navigationController!.pushViewController(eventVC, animated: true)
             }
         }
     }
 
-//    
-//    func tableView(tableView: UITableView!, didSelectRowAtIndexPath indexPath: NSIndexPath!)
-//    {
-//        if indexPath!.section==0 {return}
-//        tableView.deselectRowAtIndexPath(indexPath!,animated: true)
-//        let index = indexPath!.row
-//        let array1 = self.dataFull[self.dataKey[(indexPath?.section)!-1] as! String] as! NSArray
-//        let data = array1[index] as! NSDictionary
-//        let detailCtrl = DetailViewController(nibName :"DetailViewController", bundle: nil)
-//        detailCtrl.aid = data["id"] as! Int
-//        self.navigationController!.pushViewController(detailCtrl, animated: true)
-//    }
-//
-//    func SlideScrollViewDidClicked(index:Int)
-//    {
-//        if index == 0 {return} // when you click scrollview too soon after the view is presented
-//        let data = self.slideArray[index-1] as! NSDictionary
-//        let detailCtrl = DetailViewController(nibName :"DetailViewController", bundle: nil)
-//        detailCtrl.aid = data["id"] as! Int
-//        self.navigationController!.pushViewController(detailCtrl, animated: true)
-//    }
-//    
-//    
-//    
-//    func tableView(tableView: UITableView?, cellForRowAtIndexPath indexPath: NSIndexPath?) -> UITableViewCell? {
-//        
-//        var cell:UITableViewCell
-//        if indexPath!.section==0{
-//            cell = UITableViewCell(style: UITableViewCellStyle.Default, reuseIdentifier: nil)
-//            cell.backgroundColor = UIColor.clearColor()
-//            cell.contentView.backgroundColor = UIColor.clearColor()
-//            cell.selectionStyle = UITableViewCellSelectionStyle.None
-//            cell.clipsToBounds = true
-//            
-//            if self.slideImgArray.count > 0{
-//                let width = UIScreen.mainScreen().bounds.size.height
-//                let slideRect = CGRect(origin:CGPoint(x:0,y:0),size:CGSize(width:width,height:CGFloat(kImageHeight)))
-//                
-//                let slideView = scrollView(frame: slideRect)
-//                slideView.delegate = self
-//                slideView.initWithFrameRect(slideRect,imgArr:self.slideImgArray,titArr:self.slideTtlArray)
-//                //                self.view.addSubview(slideView)
-//                //                self.tableView.tableHeaderView = slideView
-//                cell.addSubview(slideView)
-//            }
-//        }
-//        else{
-//            let c = tableView?.dequeueReusableCellWithIdentifier("Slider2Cell", forIndexPath: indexPath!) as? Slider2Cell
-//            let index = indexPath!.row
-//            let array1 = self.dataFull[self.dataKey[(indexPath?.section)!-1] as! String] as! NSArray
-//            let data = array1[index] as! NSDictionary
-//            c!.data = data
-//            cell = c!
-//        }
-//        return cell
-//    }
     
     
     
